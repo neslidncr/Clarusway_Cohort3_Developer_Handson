@@ -305,5 +305,7 @@ But if you would like to skip this step, you can install the package (not recomm
 
 - [Lightning Component Library](https://developer.salesforce.com/docs/component-library/overview/components)
 
+- [Presentation for the Project](NewAgainHousesDeveoperProject.pdf)
 
-[def]: project-001-snapshot.png
+
+
