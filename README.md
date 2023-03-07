@@ -1,22 +1,30 @@
 # Handson Deveoper Project for Clarusway Salesforce Bootcamp Cohort-3 Students : Open House Show App for New Again Houses LLC
 
 ## Description
-New Again Houses® was born in Bristol in 2008 with one simple mission: to solve real estate problems. That mission has grown and evolved throughout the years, and now we serve homeowners not only in the Tri Cities area, but all across the country. https://newagainhouses.com/
+
+New Again Houses® was born in Bristol in 2008 with one simple mission: to solve real estate problems. That mission has grown and evolved throughout the years, and now we serve homeowners not only in the Tri Cities area, but all across the country. 
+
+https://newagainhouses.com/
+
 New Again Houses was has recently implemented Salesforce with Triforcia and they are very happy with the service provided. Kudos to you since you were the hereos of the existing projet!
+
 They have additional requirements to implement on Salesforce
 
 ## Problem Statement
 
-- New Again Houses needs an open house management software 
+New Again Houses needs an open house management software 
+
 which will help them to manage their open houses effectively along with
  
 franchise owner,
+
 customer, 
+
 open house address, 
+
 and time information. 
 
-After many hours of meetings, the following 
-plan has been prepared.
+After many hours of meetings, the following plan has been prepared.
 
 ![project](project.png)
 
@@ -24,66 +32,114 @@ plan has been prepared.
 
 
 **Open House**
+
 Open House Name ( Standard ﬁeld ) 
+
 Street*
+
 City*
+
 State*
+
 Postal code
+
 Country*
+
 Google Maps Link
+
 Is Active (Checkbox)
 
 **Open House Show**
+
 Open House Show Name ( Standard ﬁeld ) 
+
 Open House (MD Open House)
+
 Show Date*
+
 Start Time*
+
 End Time*
+
 Max Number of  Visitors 
+
 Actual Number of Visitors
+
 Remaining Number Visitors 
+
 Open House is Active (Formula Open House - Is Active field)
+
 Show Type (Virtual, Physical)
+
 Is Live Show(Checkbox)
+
 Address
+
 Is Published (Checkbox)
 
 **Franchise Owner**
+
 Full Name ( Standard ﬁeld ) 
+
 City
+
 State
+
 Postal code
+
 Country
+
 Email*
+
 Phone
+
 Franchisee since
+
 Is Active?
 
 
 **Visitor**
+
 Full Name( Standard ﬁeld ) 
+
 Email*
+
 Phone
 
 **Agent**
+
 Full Name ( Standard ﬁeld ) 
+
 Email*
+
 Phone
+
 Working with Franchise (Lookup Franchise Owner)
 
 **Open House Show Agent**
+
 Open House Show (MD Open House Show)
+
 Agent(MD Agent)
 
 **Open House Show Visitors**
+
 Open House Show (MD Open House Show)
+
 Visitor(MD Visitor)
+
 Google Maps Link**
+
 Street**
+
 City**
+
 State**
+
 Postal code**
+
 Country**
+
 Email**
 
 *Required fields
@@ -103,6 +159,7 @@ Note: This is the initial plan. If you think that an update needed, please feel 
 ## Profile/Permission Set Settings
 
 ![ProfilesAndPermissionSets.png](ProfilesAndPermissionSets.png)
+
 C - Create
 
 R - Read
@@ -136,9 +193,13 @@ Thanks,
 ## Unit Test Classes
 
 At-least 75% code coverage. Try to achieve 95%
+
 Create TestUtility Class 
+
 Create mock data method in the test class
+
 Use Test.startTest & Test.stopTest
+
 Cover all possible scenarios (Test coverage is not the only criteria)
 
 
