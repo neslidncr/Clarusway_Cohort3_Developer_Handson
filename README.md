@@ -209,12 +209,12 @@ Please create all objects and fields yourself.
 
 But if you would like to skip this step, you can install the package (not recommended), please use the link below: 
 
-![Install Unmanaged App Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDm0000004urp&isdtp=p1)
+[Install Unmanaged App Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDm0000004urp&isdtp=p1)
 
 
 ##Tasks
 
-![New Again House -  Open House Show App Tasks (Excel File)](NewAgainHousesIssues.xlsx)
+[New Again House -  Open House Show App Tasks (Excel File)](NewAgainHousesIssues.xlsx)
 
 
 ## At the end of the project, following topics are to be covered;
