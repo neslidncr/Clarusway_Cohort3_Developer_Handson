@@ -18,7 +18,7 @@ and time information.
 After many hours of meetings, the following 
 plan has been prepared.
 
-![project.png](project.png)
+![project](project.png)
 
 ## Objects to Create
 
