@@ -147,7 +147,7 @@ Please create all objects and fields yourself.
 
 But if you would like to skip this step, you can install the package (not recommended), please use the link below: 
 
-https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDm0000004urp&isdtp=p1
+![Install Unmanaged App Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDm0000004urp&isdtp=p1)
 
 
 
@@ -201,8 +201,8 @@ https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDm0000004urp&i
 - Utilize Salesforce Flow to automate and streamline business processes
 
 - Configure and customize Experience Cloud to provide a branded, self-service portal for customers
-- 
-Manage a project using Jira project management tool and Git & Github for version control system
+ 
+- Manage a project using Jira project management tool and Git & Github for version control system
 
 ## Steps to Solution
   
