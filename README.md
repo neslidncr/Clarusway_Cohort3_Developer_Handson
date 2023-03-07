@@ -16,13 +16,13 @@ New Again Houses needs an open house management software
 
 which will help them to manage their open houses effectively along with
  
-franchise owner,
+- franchise owner,
 
-customer, 
+- customer, 
 
-open house address, 
+- open house address, 
 
-and time information. 
+- and time information. 
 
 After many hours of meetings, the following plan has been prepared.
 
@@ -35,126 +35,135 @@ After many hours of meetings, the following plan has been prepared.
 
 Open House Name ( Standard ﬁeld ) 
 
-Street*
+- Street*
 
-City*
+- City*
 
-State*
+- State*
 
-Postal code
+- Postal code
 
-Country*
+- Country*
 
-Google Maps Link
+- Google Maps Link
 
-Is Active (Checkbox)
+- Is Active (Checkbox)
+
 
 **Open House Show**
 
-Open House Show Name ( Standard ﬁeld ) 
+- Open House Show Name ( Standard ﬁeld ) 
 
-Open House (MD Open House)
+- Open House (MD Open House)
 
-Show Date*
+- Show Date*
 
-Start Time*
+- Start Time*
 
-End Time*
+- End Time*
 
-Max Number of  Visitors 
+- Max Number of  Visitors 
 
-Actual Number of Visitors
+- Actual Number of Visitors
 
-Remaining Number Visitors 
+- Remaining Number Visitors 
 
-Open House is Active (Formula Open House - Is Active field)
+- Open House is Active (Formula Open House - Is Active field)
 
-Show Type (Virtual, Physical)
+- Show Type (Virtual, Physical)
 
-Is Live Show(Checkbox)
+- Is Live Show(Checkbox)
 
-Address
+- Address
 
-Is Published (Checkbox)
+- Is Published (Checkbox)
+
 
 **Franchise Owner**
 
-Full Name ( Standard ﬁeld ) 
+- Full Name ( Standard ﬁeld ) 
 
-City
+- City
 
-State
+- State
 
-Postal code
+- Postal code
 
-Country
+- Country
 
-Email*
+- Email*
 
-Phone
+- Phone
 
-Franchisee since
+- Franchisee since
 
-Is Active?
+- Is Active?
 
 
 **Visitor**
 
-Full Name( Standard ﬁeld ) 
+- Full Name( Standard ﬁeld ) 
 
-Email*
+- Email*
 
-Phone
+- Phone
+
 
 **Agent**
 
-Full Name ( Standard ﬁeld ) 
+- Full Name ( Standard ﬁeld ) 
 
-Email*
+- Email*
 
-Phone
+- Phone
 
-Working with Franchise (Lookup Franchise Owner)
+- Working with Franchise (Lookup Franchise Owner)
+
 
 **Open House Show Agent**
 
-Open House Show (MD Open House Show)
+- Open House Show (MD Open House Show)
 
-Agent(MD Agent)
+- Agent(MD Agent)
+
 
 **Open House Show Visitors**
 
-Open House Show (MD Open House Show)
+- Open House Show (MD Open House Show)
 
-Visitor(MD Visitor)
+- Visitor(MD Visitor)
 
-Google Maps Link**
+- Google Maps Link**
 
-Street**
+- Street**
 
-City**
+- City**
 
-State**
+- State**
 
-Postal code**
+- Postal code**
 
-Country**
+- Country**
 
-Email**
+- Email**
+
 
 *Required fields
 
 ** Hide from Page Layout
 
+
 ##Data Modeling
 
 ![DataModeling.png](DataModeling.png)
+
 
 ## Organization Wide Defaults
 
 ![orgwidedefaults.png](orgwidedefualts.png)
 
 Note: This is the initial plan. If you think that an update needed, please feel free to change. But please test it first!
+
 
 ## Profile/Permission Set Settings
 
@@ -190,6 +199,7 @@ Find the Google Map Location for the Open House here: {Open House Google Map Lin
 Thanks,
 {Organization Name}
 
+
 ## Unit Test Classes
 
 At-least 75% code coverage. Try to achieve 95%
@@ -210,6 +220,8 @@ Please create all objects and fields yourself.
 But if you would like to skip this step, you can install the package (not recommended), please use the link below: 
 
 [Install Unmanaged App Package](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDm0000004urp&isdtp=p1)
+
+Install for Admin only recommended.
 
 
 ##Tasks
@@ -269,6 +281,7 @@ But if you would like to skip this step, you can install the package (not recomm
  
 - Manage a project using Jira project management tool and Git & Github for version control system
 
+
 ## Steps to Solution
   
 - Step 1: Download or clone project definition from `Clarusway_Cohort3_Developer_Handson` repo on Github 
@@ -279,13 +292,14 @@ But if you would like to skip this step, you can install the package (not recomm
 
 - Step 4: Complete Administrator implementation tasks  
 
-- Step 5: Write LWC components on the VS Code
+- Step 5: Write LWC components, Apex triggers, and classes on the VS Code
 
 - Step 6: Create Screen flow alternatives for each LWC component if available 
 
 - Step 7: Deploy your application on developer org using to showcase your app within your team.
 
 - Step 8: Prepeare your presentation on 17th March 2023 at 8 PM
+
 
 ## Considerations
 
@@ -305,7 +319,7 @@ But if you would like to skip this step, you can install the package (not recomm
 
 - [Lightning Component Library](https://developer.salesforce.com/docs/component-library/overview/components)
 
-- [Presentation for the Project](NewAgainHousesDeveoperProject.pdf)
+- [Presentation for the Project(PDF)](NewAgainHousesDeveoperProject.pdf)
 
 
 
