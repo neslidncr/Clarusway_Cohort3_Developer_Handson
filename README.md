@@ -96,7 +96,7 @@ Email**
 
 ## Organization Wide Defaults
 
-![orgwidedefaults.png](orgwidedefualts.png)
+![orgwidedefaults.png](orgwided efualts.png)
 
 Note: This is the initial plan. If you think that an update needed, please feel free to change. But please test it first!
 
